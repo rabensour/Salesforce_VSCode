@@ -1,0 +1,11 @@
+<template>
+    <template if:true={errors}>
+        <p>{errors}</p>
+    </template>
+    <lightning-datatable
+        key-field="Id" 
+        data={contacts} 
+        columns={columns} 
+        hide-checkbox-column="true">
+    </lightning-datatable>
+</template>

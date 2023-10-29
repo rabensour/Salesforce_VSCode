@@ -1,0 +1,9 @@
+<template>
+    <!-- Use lightning-record-form for creating Contact -->
+    <!-- This component allows us to automatically generate fields based on specified field names -->
+    <lightning-record-form
+        object-api-name="Contact"
+        fields={fields}
+        onsuccess={handleSuccess}>
+    </lightning-record-form>
+</template>
